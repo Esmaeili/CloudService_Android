@@ -42,6 +42,7 @@ public class EchoServlet extends HttpServlet // Servlets should inherit from Htt
 		
 		// Echo a response back to the client with the msg that was sent
 		resp.getWriter().write("Echo:"+ msg);
+		System.out.print("Hi there");
 	}
 
 	/*
